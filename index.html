@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayesha Tanvir — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="floaties" aria-hidden="true">
+    <span class="floaty b1">✦</span>
+    <span class="floaty b2">&lt;/&gt;</span>
+    <span class="floaty b3">♡</span>
+    <span class="floaty b4">⚡</span>
+    <span class="floaty b5">✦</span>
+    <span class="floaty b6">🫘</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="wordmark">AT<span class="wordmark-dot">.</span></a>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Certifications</a>
+        <a href="#beyond">Beyond the Code</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-kicker">hey, I'm</p>
+        <h1 class="hero-name">Ayesha Tanvir</h1>
+        <p class="hero-role">CS student &amp; <span class="typed"></span><span class="caret"></span></p>
+        <p class="hero-desc">
+          Second-year Computer Science student at CUST, Islamabad. I like
+          projects with a bit of personality: a Minecraft mod that remembers
+          what you did, a browser game where you team up with your own past
+          self, a tool that writes slide decks so I don't have to.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-fill">See my projects</a>
+          <a href="#contact" class="btn-outline">Say hi</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-cluster">
+          <div class="blob"></div>
+          <span class="monogram">AT.</span>
+          <span class="sticker s1">🎬</span>
+          <span class="sticker s2">🎨</span>
+          <span class="sticker s3">🛍️</span>
+          <span class="sticker s4">🎤</span>
+          <span class="sticker s5">💻</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <p class="section-kicker">a little about me</p>
+      <h2 class="section-heading squiggle">About</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm studying Computer Science at Capital University of Science and
+          Technology in Islamabad, and I learn best by building — most of
+          what's below started as "I wonder if I can make this" rather than
+          a class assignment. Outside class, I've been picking up hands-on
+          business and internship experience alongside the coding. Long-term,
+          I'm working toward continuing my studies in Germany, so German is
+          somewhere in my "currently learning" pile too.
+        </p>
+        <div class="about-card">
+          <div class="about-fact">
+            <span class="fact-label">Studying</span>
+            <span class="fact-value">BS Computer Science, CUST Islamabad</span>
+          </div>
+          <div class="about-fact">
+            <span class="fact-label">Based in</span>
+            <span class="fact-value">Islamabad, Pakistan</span>
+          </div>
+          <div class="about-fact">
+            <span class="fact-label">Currently</span>
+            <span class="fact-value">Interning at Devowise</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="section-kicker">what I've been building</p>
+      <h2 class="section-heading squiggle">Featured Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card project-card--wide">
+          <span class="project-blob">🎮</span>
+          <div class="project-top">
+            <h3>EchoesLab</h3>
+            <p class="project-tags">Java · Fabric · Minecraft mod</p>
+          </div>
+          <p class="project-desc">
+            A Minecraft mod that records everything you do — walking,
+            mining, placing blocks — and lets you summon up to three ghost
+            "Echoes" that play it back on loop, striding forward each time
+            so a mined tunnel keeps extending on its own. Built against a
+            moving target, since Minecraft's rendering and mapping systems
+            changed mid-project.
+          </p>
+          <a class="project-link" href="https://github.com/ayesha-at/Echoes-Minecraftmod" target="_blank" rel="noopener">View repo</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-blob">⏳</span>
+          <div class="project-top">
+            <h3>Echo Labs</h3>
+            <p class="project-tags">Vanilla JS · HTML5 Canvas</p>
+          </div>
+          <p class="project-desc">
+            A browser puzzle platformer where your only tool is your own
+            past — record a short run, then work alongside a looping echo
+            of yourself to reach places one player can't. 13 modules, no
+            frameworks, built from scratch.
+          </p>
+          <div class="project-links">
+            <a class="project-link" href="https://ayesha-at.github.io/Echo-labs/" target="_blank" rel="noopener">Play demo</a>
+            <a class="project-link" href="https://github.com/ayesha-at/Echo-labs" target="_blank" rel="noopener">View repo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-blob">📊</span>
+          <div class="project-top">
+            <h3>Smart Presentation Builder</h3>
+            <p class="project-tags">C++ · CMake · Ollama</p>
+          </div>
+          <p class="project-desc">
+            A terminal tool that generates real PowerPoint files from the
+            command line — native OOXML generation, a local LLM via Ollama
+            for content, and a full CI pipeline testing it on every push.
+          </p>
+          <a class="project-link" href="https://github.com/ayesha-at/Smart-Presentation-Builder" target="_blank" rel="noopener">View repo</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <p class="section-kicker">where I've spent my time</p>
+      <h2 class="section-heading squiggle">Experience</h2>
+
+      <ul class="exp-list">
+        <li class="exp-item">
+          <span class="exp-blob">💼</span>
+          <div class="exp-body">
+            <div class="exp-head">
+              <div>
+                <h3>Business Development Intern</h3>
+                <p class="exp-org">Devowise</p>
+              </div>
+              <p class="exp-meta">Melbourne, Australia (remote) · Current</p>
+            </div>
+            <p class="exp-desc">Supporting lead generation, outreach, CRM management and sales strategy for a growing agency.</p>
+          </div>
+        </li>
+
+        <li class="exp-item">
+          <span class="exp-blob">🚀</span>
+          <div class="exp-body">
+            <div class="exp-head">
+              <div>
+                <h3>Intern</h3>
+                <p class="exp-org">DecodeLabs</p>
+              </div>
+              <p class="exp-meta">1-month · Project-based</p>
+            </div>
+            <p class="exp-desc">A short, project-based internship focused on shipping a scoped deliverable end to end.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <p class="section-kicker">the toolbox</p>
+      <h2 class="section-heading squiggle">Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h3>Languages</h3>
+          <p>C++, JavaScript, Python, HTML5 / CSS3</p>
+        </div>
+        <div class="skills-group">
+          <h3>Tools &amp; CI</h3>
+          <p>Git, GitHub Actions, CMake, Linux, VS Code, Ollama (local LLM)</p>
+        </div>
+        <div class="skills-group">
+          <h3>Core paradigms</h3>
+          <p>Object-oriented programming, data structures &amp; algorithms, HTML5 Canvas API</p>
+        </div>
+        <div class="skills-group">
+          <h3>Human languages</h3>
+          <p>Urdu &amp; Punjabi (native), English (IELTS 8.0 overall), German (A1)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section reveal">
+      <p class="section-kicker">the paperwork</p>
+      <h2 class="section-heading squiggle">Certifications</h2>
+      <div class="cert-grid">
+        <a class="cert-card" href="https://www.coursera.org/account/accomplishments/specialization/T8EQ5CMOWH2O" target="_blank" rel="noopener">
+          <span class="cert-icon">🛡️</span>
+          <div>
+            <p class="cert-name">ISC2 Certified in Cybersecurity (CC)</p>
+            <p class="cert-issuer">ISC2 · Coursera</p>
+          </div>
+        </a>
+        <a class="cert-card" href="https://www.coursera.org/account/accomplishments/specialization/3QUOW5Z3V2S5" target="_blank" rel="noopener">
+          <span class="cert-icon">🌐</span>
+          <div>
+            <p class="cert-name">IBM Web Development</p>
+            <p class="cert-issuer">IBM · Coursera</p>
+          </div>
+        </a>
+        <a class="cert-card" href="https://www.coursera.org/account/accomplishments/verify/2L9WTR4D2JDZ" target="_blank" rel="noopener">
+          <span class="cert-icon">🤖</span>
+          <div>
+            <p class="cert-name">Google AI Essentials</p>
+            <p class="cert-issuer">Google · Coursera</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="beyond" class="section reveal">
+      <p class="section-kicker">before the semicolons</p>
+      <h2 class="section-heading squiggle">Beyond the Code</h2>
+      <p class="beyond-intro">Code is the newest hobby, not the only one — a few earlier chapters:</p>
+
+      <div class="venture-grid">
+
+        <article class="venture-card">
+          <span class="venture-icon">🎬</span>
+          <h3>Documentary YouTuber</h3>
+          <p class="venture-desc">
+            Started a channel at 13 and put out 15+ documentary-style videos —
+            researched, scripted, voiced and edited solo, on everything from
+            the Fukushima disaster to the psychology of gangs. One on Chindogu
+            (the Japanese art of "un-useless" inventions) organically hit 2.7K views.
+          </p>
+        </article>
+
+        <article class="venture-card">
+          <span class="venture-icon">🎨</span>
+          <h3>Design &amp; illustration</h3>
+          <p class="venture-desc">
+            Picked up Canva and Illustrator basics through a graphic design
+            course, then took it further with a vector-art Instagram account
+            that turned into paid custom commissions.
+          </p>
+        </article>
+
+        <article class="venture-card">
+          <span class="venture-icon">🛍️</span>
+          <h3>Shopify founder</h3>
+          <p class="venture-desc">
+            Ran a profitable store, getmestuff, at 16 — product research,
+            a TikTok UGC campaign, customer service, the whole thing —
+            until academics won out and I closed up shop.
+          </p>
+        </article>
+
+        <article class="venture-card">
+          <span class="venture-icon">🎤</span>
+          <h3>Model UN</h3>
+          <p class="venture-desc">
+            Walked away from my first MUN conference (AMUN24) with an
+            Outstanding Delegate award for negotiation and public speaking
+            under pressure.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact reveal">
+      <p class="section-kicker">let's talk</p>
+      <h2 class="section-heading squiggle">Contact</h2>
+      <p class="contact-line">
+        <a href="mailto:ayeshatanvir990@gmail.com">ayeshatanvir990@gmail.com</a>
+      </p>
+      <div class="contact-links">
+        <a href="https://github.com/ayesha-at" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ayesha-tanvir-995645428/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Ayesha Tanvir · <span id="year"></span></p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
