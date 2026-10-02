@@ -30,7 +30,7 @@ const observer = new IntersectionObserver(
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
 /* rotating role line */
-const phrases = ["full-time question-asker", "collector of half-finished ideas", "coffee-powered problem solver", "self-taught illustrator", "currently learning German (badly)"];
+const phrases = ["full-time question-asker", "builder of weird side projects", "coffee-powered problem solver", "self-taught illustrator", "learning German, one station at a time"];
 const typedEl = document.querySelector(".typed");
 
 if (typedEl && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
